@@ -4,6 +4,7 @@
     background-blend-mode: darken;
   }
 
+
   .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 50px;
     width: 50px;
@@ -16,14 +17,14 @@
   .carousel-control-next {
     top: 50%;
     bottom: 50%;
-    right: -55px;
+    right: -15px;
   }
   
   /* For Left Previous Button  */
   .carousel-control-prev {
     top: 50%;
     bottom: 50%;
-    left: -55px;
+    left: -15px;
   }
   
   /* For Non-active indicators  */
@@ -56,6 +57,19 @@
 
   }
 
+  #profile:before{
+    height: 6vh;
+  content: "";
+  display:block;  
+  }
+
+
+  #background:before{
+    height: 6vh;
+  content: "";
+  display:block;  
+  }
+
 
   #skillset {
     background-blend-mode: darken;
@@ -65,7 +79,18 @@
     background-size: cover ; 
     
     background-color: rgba(29, 29, 29, 0.3);
+    height: 100vh ; 
+
+    
   }
+
+
+  #skillset:before{
+    height: 6vh;
+  content: "";
+  display:block;  
+  }
+
 
 
   #profile-text {
@@ -90,7 +115,8 @@
 
 
   h1 {
-    background: rgba(160, 160, 160, 0.7); 
+    background: rgba(160, 160, 160, 0.75); 
+    border-radius: 25px ; 
     line-height: 0 px ; 
     
     display: inline-block ; 
@@ -111,10 +137,21 @@
     list-style-type: none;
   } */
 
+  /* .flex-grow {
+    flex: 1 0 auto;
+} */
+
   #projects {
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh ; 
 
+}
+
+#projects:before {
+  height: 6vh;
+  content: "";
+  display:block;
 }
 
   #misc {
@@ -125,6 +162,13 @@
     background-size: cover ; 
     
     background-color: rgba(29, 29, 29, 0.3);
+    height: 100vh; 
+  }
+
+  #misc:before{
+    height: 6vh;
+  content: "";
+  display:block;  
   }
 
 
@@ -136,6 +180,7 @@
     padding-top: 10px ; 
     display: inline-block;
     float: none; 
+    height: 8vh ; 
 
   }
 
@@ -151,7 +196,7 @@
     margin-left: 0px ; 
   }
   nav ul li a {
-    display: block;
+    /* display: block; */
     padding: 15px;
     text-decoration: none;
     color: #000;
@@ -188,7 +233,7 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 50%;
+    width: 75%;
     height: 1px;
     content: '.';
     color: transparent;
@@ -197,11 +242,53 @@
     opacity: 0;
     z-index: -1;
   }
+
   nav.shift ul li a:hover:after {
     opacity: 1;
     visibility: visible;
     height: 150%;
+    
   }
+
+  #lastitem {
+    color: black ; 
+    margin: 0 ; 
+    padding: 0 ;
+    font-weight: normal;
+    text-transform: none ; 
+    text-decoration: none;
+    
+  }
+
+  #lastitem:after {
+    color: transparent ;
+    background: transparent ;  
+  }
+
+  #lastitem:hover:after {
+    height: 100% ; 
+  }
+
+
+
+
+
+
+
+
+  .card {
+    
+    font-size: 15px; 
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s; /* Safari 3.1 to 6.0 */
+  
+  }
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+    
+  }
+
 
 
   

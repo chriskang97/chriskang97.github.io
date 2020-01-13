@@ -17,7 +17,7 @@
     <title>Home</title>
   </head>
 
-  
+
   
   <body data-spy="scroll" data-target="#shift" data-offset="50">
 
@@ -45,9 +45,9 @@
               <a class="nav-link" href="#misc">Misc</a>
           </li>
 
-          <li class="col-md-2 navitem text-left">
-            <i class="fa fa-envelope" style="font-size:20px"></i> whoisthis@gmail.com <br>
-            <i class="fa fa-github" style="font-size:24px"></i> Github Profile 
+          <li class="col-md-2 nav-item text-left">
+            <i class="fa fa-envelope" style="font-size:20px"></i> chriskang97@gmail.com <br>
+            <i class="fa fa-github" style="font-size:24px" ></i> <a id="lastitem" href="https://github.com/chriskang97">Github Profile</a> 
           </li> 
         </div>
       </ul>
@@ -56,9 +56,9 @@
 
 
     <div id="profile" class="container-fluid text-center" style="padding-top:70px; padding-bottom:70px" >
-      <img src="css/assets/test_avi.jpg" style="margin-top: 20px ; border-radius: 50%; width: 225px; height: 225px;">
+      <img src="css/assets/profile_pic_1.jpg" style="margin-top: 20px ; border-radius: 50%; width: 225px; height: 225px;">
       <div style="margin-top:20px; "> 
-        <h1 style="padding-left:20px; padding-right:20px">MamaOkuu <br> 
+        <h1 style="padding-left:20px; padding-right:20px">Christopher Kang <br> 
         <p class="text-center" style="font-size:30px" > B.S. in Electrical Engineering 
         <br> Minor in Computer Science and Business </p> </h1>  
       </div> 
@@ -67,14 +67,14 @@
       
     <div id="background" class="container-fluid text-left" style="padding-top:30px;padding-bottom:70px">
       <h2>Background</h2>
-      <p>Hi there! My name is MamaOkuu and I graduated from the University of Illinois Urbana Champaign in December 2019. My current interests lies in data engineering/analytics, machine learning, and deep learning. Other areas that I am interested in includes robotics, control systems, image processing, and back end development in databases.</p>
+      <p>Hi there! My name is Chris and I graduated from the University of Illinois Urbana Champaign in December 2019. My current interests lies in data engineering/analytics, machine learning, and deep learning. Other areas that I am interested in includes robotics, control systems, image processing, and back end development in databases.</p>
       <p>I am currently looking for full time or internship opportunities relating to data engineering/analytics or tech consultant analyst in the east coast area (preferably in the NYC area). Currently, I am doing self driven learning towards data engineering projects along with machine learning and deep learning applications. </p> 
       <p>My hobbies include cooking, traveling, 3D printing, watching broadway shows, and playing golf.</p>
     </div>
 
 
-    <div id="skillset" class="container-fluid text-left" style="padding-top:30px;padding-bottom:70px; list-style-type: none; ">
-      <div class ="row" style="margin-top:20px; "> 
+    <div id="skillset" class="container-fluid text-left" style="padding-top:30px;padding-bottom:0px; list-style-type: none; ">
+      <div class ="row" style="margin-top:30px; "> 
 
         <div class="col-lg-6 text-center"> 
           <h1 style="padding-left:20px; padding-right:20px; height: 650px;"> <u>Technical Skills</u> <br> 
@@ -113,23 +113,27 @@
 
 
 
-    <div id="projects" class="container-fluid text-center" style="padding-top:30px;padding-bottom:70px">
+    <div id="projects" class="container-fluid text-center" style="padding-top:30px;padding-bottom:30px; ">
       <h2>Project Showcase</h2>
-          <div id="carouselExampleControls" class="carousel slide" style="margin-top:40px; padding-bottom: 40px; " data-interval="false" data-ride="carousel">
+          <div id="carouselExampleControls" class="carousel slide " style="margin-top:40px; padding-bottom: 0px;  " data-interval="false" data-ride="carousel">
             <div class="carousel-inner">
 
               <!-- Project on 1st Slide -->
-              <div class="carousel-item active">
+              <div class="carousel-item active" style="margin-top:0px; ">
                 <div class="row" style="margin-left:125px; ">
 
-                    <div class="col-md-4 text-center">
-                      <div class="card" style="width: 18rem;" data-toggle="modal" data-target="#ece445modal">
+                    <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px ; ">
+                      <button class="btn btn-fix ">
+                        <div class="card" style="width: 19rem;" data-toggle="modal" data-target="#ece445modal">    
                           <h5 class="card-title">Powerboard for the Illini-SAT</h5>
                           <img class="card-img-top" src="css/assets/ece_445_1.jpg" alt="Powerboard for the Illini-SAT">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="card-body text-left">
+                            <p class="card-text"> <b>Project Type:</b> Senior Design Project </p>
+                            <p class="card-text"> <b>Role:</b> Implementing I2C and CAN Bus Protocals using the STM32 microcontroller in C</p>
+                            <p class="card-text"> <b>Keywords:</b> Circuits, Power, Microcontroller, Verification, C </p>
                           </div>
-                      </div>
+                        </div>
+                      </button>
                     </div>
 
 
@@ -156,11 +160,13 @@
 
 
                     <div class="col-md-4 text-center">
-                      <div class="card" style="width: 18rem;">
+                      <div class="card" style="width: 19rem;">
                           <h5 class="card-title">UIUC Find my Course Website</h5>
-                          <img class="card-img-top" src="css/assets/cs_412_1.jpg" alt="UIUC Find my Course Website">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <img class="card-img-top" src="css/assets/cs_412_1.jpg"  alt="UIUC Find my Course Website">
+                          <div class="card-body text-left">
+                              <p class="card-text"> <b>Project Type:</b> UX Semester Project </p>
+                              <p class="card-text"> <b>Role:</b> Team leader of the group, focused on website design and functionalities</p>
+                              <p class="card-text"> <b>Keywords:</b> UX Design, HTML, JS, Boostrap, </p>
                             <!-- http://findmycourse.web.illinois.edu/ -->
                           </div>
                       </div>
@@ -171,53 +177,57 @@
                     <div class="col-md-4 text-center">
                       <div class="card" style="width: 18rem;">
                           <img class="card-img-top" src="" alt="Android Facial Recognition App">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="card-body text-left">
+                              <p class="card-text"> <b>Project Type:</b> Digital Signal Processing Final Project </p>
+                              <p class="card-text"> <b>Role:</b> Team leader of the group, focused on facial detection algorithm and Android implementation</p>
+                              <p class="card-text"> <b>Keywords:</b> Python, Image Processing, Algorithm, Java, Android </p>
                           </div>
                       </div>
                     </div>
           
                 </div>  
                 
-                <div class="row" style="margin-left:125px; margin-top:20px; ">
-
-                    <div class="col-md-4 text-center">
-                      <div class="card" style="width: 18rem;">
-                          <h5 class="card-title">Student Career-Job Specialize Website</h5>
-                          <img class="card-img-top" src="css/assets/cs_411_1.png" alt="Student Career-Job Specialize Tool">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                      </div>
-                    </div>
-
-
-                    <div class="col-md-4 text-center">
-                      <div class="card" style="width: 18rem;">
-                          <h5 class="card-title">RPG Game on FPGA Board</h5>
-                          <img class="card-img-top" src="css/assets/ece_385_1.jpg" alt="RPG Game on FPGA Board">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                      </div>
-                    </div>
-
-
-
-                    <div class="col-md-4 text-center">
-                      <div class="card" style="width: 18rem;">
-                          <img class="card-img-top" src="..." alt="Interactive LED Cube">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                      </div>
-                    </div>
-          
-                </div>                
-
 
               </div>
-      
+              
+              <div class = "carousel-item">
+                  <div class="row" style="margin-left:125px; margin-top:20px; ">
+
+                      <div class="col-md-4 text-center">
+                        <div class="card" style="width: 18rem;">
+                            <h5 class="card-title">Student Career-Job Specialize Website</h5>
+                            <img class="card-img-top" src="css/assets/cs_411_1.png" alt="Student Career-Job Specialize Tool">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                      </div>
+  
+  
+                      <div class="col-md-4 text-center">
+                        <div class="card" style="width: 18rem;">
+                            <h5 class="card-title">RPG Game on FPGA Board</h5>
+                            <img class="card-img-top" src="css/assets/ece_385_1.jpg" alt="RPG Game on FPGA Board">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                      </div>
+  
+  
+  
+                      <div class="col-md-4 text-center">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="..." alt="Interactive LED Cube">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                      </div>
+            
+                  </div>  
+
+              </div>
               
               <div class="carousel-item">
                   <div class="row" style="margin-left:125px; ">
@@ -378,9 +388,11 @@
               <li data-target="#slider" data-slide-to="0" class="active"></li>
               <li data-target="#slider" data-slide-to="1"></li>
               <li data-target="#slider" data-slide-to="2"></li>
+              <li data-target="#slider" data-slide-to="3"></li>
             </ol>
       
           </div>
+
 
     </div>
 
@@ -397,7 +409,7 @@
           <br> 
           <br> Navigation bar template credit: <a href="https://codepen.io/maheshambure21/pen/QwXaRw"> link </a> 
           <br>
-          <br> Website was made using BootStrap 4 and is currently hosted on my Github account. 
+          <br> Website was made using Bootstrap 4 and is currently hosted on my Github account. 
           <br>
           <br>  </h1>
       </div> 
@@ -445,8 +457,23 @@
       </a>
     </div> -->
 
-
-
+    <!-- <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top-50
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+      </script> -->
 
   </body>
 </html>
