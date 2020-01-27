@@ -58,7 +58,7 @@
     background-repeat: no-repeat;
     background-size: cover ; 
     background-color: rgba(29, 29, 29, 0.3);
-    height: 100vh ; 
+    min-height: 100vh ; 
   }
 
   #skillset:before{
@@ -85,7 +85,7 @@
     background-repeat: no-repeat;
     background-size: cover ; 
     background-color: rgba(29, 29, 29, 0.3);
-    height: 100vh; 
+    min-height: 100vh; 
   }
 
   #class:before {
@@ -155,7 +155,7 @@
 
   .modal-dialog {
     max-width: 100%;
-    width: 75% ; 
+    min-width: 75% ; 
   }
 
 
@@ -167,7 +167,7 @@
     padding-top: 10px ; 
     display: inline-block;
     float: none; 
-    height: 8vh ; 
+    min-height: 8vh ; 
 
   }
 
