@@ -17,8 +17,6 @@
     <title>Home</title>
   </head>
 
-
-  
   <body data-spy="scroll" data-target="#shift" data-offset="50">
 
     <!-- Navbar Content -->
@@ -52,8 +50,7 @@
       </ul>
     </nav>
 
-
-
+    <!-- Profile -->
     <div id="profile" class="container-fluid text-center" style="padding-top:70px; padding-bottom:70px" >
       <img src="css/assets/profile_pic_1.jpg" style="margin-top: 20px ; border-radius: 50%; width: 225px; height: 225px;">
       <div style="margin-top:20px; "> 
@@ -65,60 +62,49 @@
       </div> 
     </div>
         
-      
+    <!-- Background -->
     <div id="background" class="container-fluid text-left" style= "padding-top:30px;padding-bottom:70px">
       <h2>Background</h2>
       <div style="font-size: 20px; font-family:'Times New Roman';">
-        <p>Hi there! My name is Chris and I graduated from the University of Illinois Urbana Champaign in December 2019. My current interests lies in data engineering/analytics, machine learning, and deep learning. Other areas that I am interested in includes robotics, control systems, image processing, and back end development in databases.</p>
-        <p>I am currently looking for full time or internship opportunities relating to data engineering/analytics or tech consultant analyst in the east coast area (preferably in the NYC area). Currently, I am doing self driven learning towards data engineering projects along with machine learning and deep learning applications. </p> 
+        <p>Hi there! My name is Chris and I graduated from the University of Illinois Urbana Champaign in December 2019. My current interests lies in data engineering, data analytics, machine learning, and deep learning. Other areas that I am interested in includes robotics, control systems, image processing, and back end development. </p>
+        <p>I am currently looking for a full time position relating to data engineering, data analytics, or tech consultant analyst in the east coast area. Currently, I am currently doing a self driven learning towards data engineering projects along with machine learning and deep learning applications. </p> 
         <p>My hobbies include cooking, traveling, 3D printing, watching broadway shows, and playing golf.</p>
       </div>
     </div>
 
-
+    <!-- Skillset -->
     <div id="skillset" class="container-fluid text-left" style="padding-top:30px; list-style-type: none; ">
-      <!-- <div class ="row" style="margin-top:30px; ">  -->
-
-        
           <h1 style="padding-left:20px; padding-right:20px; height: 42vh;"> <u>Technical Skills</u> <br> 
             <ul class="text-left" style="font-size:25px; font-family:'Times New Roman' ; line-height: 1.1; list-style-type: disc; " > 
-              <li> Main Language: Python, Proficient: C++, C, MATLAB, HTML, SQL, Java, JavaScript </li>
+              <li> Main Language: Python, Proficient: C++, C, MATLAB, HTML, SQL, SystemVerilog, Java, JavaScript </li>
               <br> 
-              <li> Primary language used is Python and have used libraries such as Numpy, Matplot, Sckit Learn, TensorFlow, Panda</li> 
+              <li> Primary language used is Python and have used libraries such as Numpy, Matplot, Sckit Learn, TensorFlow, Panda </li> 
               <br> 
               <li> Knowledgeable in Machine Learning concepts such as Naive Bayes, K-Means, Decision Trees, Multivariable Regression, Probability, Neural Networks </li> 
               <br> 
               <li> Other concepts known include Data Structures/Object Oriented Programming, Linear Algebra, Robotics, Microcontroller Programming, Control Systems</li> 
             </ul> 
-          </h1>  
-        
-
+          </h1>   
 
           <h1 style="padding-left:20px; padding-right:20px; height: 42vh; margin-top: 3vh"> <u>Non-Technical Skills</u> <br> 
             <ul class="text-left" style="font-size:25px; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
-              <li> For several projects, assigned group members roles and tasks that needs to be done along with coordinating communications between each member's needs and issues within the group.</li>
+              <li> For several projects, assigned group members roles and tasks that needed to be done along with coordinating communications between each member's needs and issues within the group.</li>
               <br> 
               <li> Delegated projects milestones and schedule, reviewed each team member's contribution and results, and motivated overall group's atmosphere. </li> 
               <br> 
-              <li> Analyzed technical documents such as hardware circuits and microcontroller components along with extracting key information and algorithm implementation from research papers. </li> 
+              <li> Analyzed and extracted key component's information specs and algorithm implementation from multiple technical documents and research papers. </li> 
               <br> 
               <li> Understands different software development cycles along with the general company and business structures. </li> 
             </ul> 
           </h1>  
-
-      <!-- </div>  -->
     </div>
 
 
-  
-
-
-
-
+    <!-- Projects -->
     <div id="projects" class="container-fluid text-left" style="padding-top:30px;padding-bottom:30px; ">
       <h2>Project Showcase</h2>
 
-      <!-- Project on 1st Slide -->
+      <!-- Project on 1st Row -->
         <div class="row" >
 
           <!-- 1st Project  -->
@@ -127,7 +113,6 @@
               <div class="card" style="width: 19rem; height:60vh;" >    
                 <h5 class="card-title">Powerboard for the Illini-SAT</h5>
 
-
                   <div style="height:25vh">
                       <img class="card-img-top" src="css/assets/ece_445_1.jpg" alt="Powerboard for the Illini-SAT">
                   </div>
@@ -135,7 +120,7 @@
                   <div class="card-body text-left">
                     <p class="card-text"> <b>Project Type:</b> Senior Design Project </p>
                     <p class="card-text"> <b>Role:</b> Implementing I2C and CAN Bus Protocals using the STM32 microcontroller in C</p>
-                    <p class="card-text"> <b>Keywords:</b> Circuits, Power, Microcontroller, Verification, C </p>
+                    <p class="card-text"> <b>Keywords:</b> Circuits, Power, Microcontroller, Verification, Technical Documentaion, C </p>
                   </div>
 
                 </div>
@@ -143,30 +128,35 @@
             </button>
           </div>
 
-
           <!-- 1st Project Modal -->
           <div class="modal fade" id="ece445modal" tabindex="-1" role="dialog" aria-labelledby="ece445modal" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Powerboard for the Illini-SAT</h5>
+                  <h5 class="modal-title" id="ece445ModalLabel">Powerboard for the Illini-SAT <a href="https://courses.engr.illinois.edu/ece445/project.asp?id=7128">(Project Link)</a> </h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
-                </div>
-                <div class="modal-body">
-
-
+                </div> 
+                <div class="modal-body" style="line-height: 34px">
+                    This was my senior design project and was worked on by three senior students including myself. 
+                    Our project goals and components were given by our sponsor, LASSI (Laboratory for Advanced Space Systems at Illinois). 
+                    The main goal of our project was to build a new power board for their next generation model of CubeSats, a small cube shaped satellite, along with implementing I2C and CANBus protocols. 
+                    The power board was requested to have the battery and solar powered panels be more energy efficient.
+                    I2C was requested in order to implement safety features for each components and additionally allow us to read and send each component’s telemetric status. 
+                    Finally, CANBus protocols was used to communicate between our microcontroller and the control + data handling board. This communication would allow our sponsors to create and execute custom instructions for the power board. 
+                    The approximate time we had in implementing our solution was roughly three months and we approximately followed a waterfall development cycle.
+                    Due to our project producing admirable results within a short amount of time, we additionally received an honorable award for our project.
+                    Overall, working on this project not only helped me learn the internal functionality of a power board and basic networking protocols, but also taught me about time management along with being able to read and write technical reports in an efficient manner. 
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>
           </div>
 
-
+          <!-- 2nd Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#findmycoursemodal">
               <div class="card" style="width: 19rem; height:60vh;" >
@@ -179,34 +169,41 @@
                 <div class="card-body text-left">
                   <p class="card-text"> <b>Project Type:</b> UX Semester Project </p>
                   <p class="card-text"> <b>Role:</b> Team leader of the group, focused on website design and functionalities</p>
-                  <p class="card-text"> <b>Keywords:</b> UX Design, HTML, JS, Boostrap, </p>
+                  <p class="card-text"> <b>Keywords:</b> UX Design, HTML, JS, Boostrap, User Interviews </p>
                 </div>
               </div>
             </button>
           </div>
 
+          <!-- 2nd Project Modal -->
           <div class="modal fade" id="findmycoursemodal" tabindex="-1" role="dialog" aria-labelledby="findmycoursemodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">UIUC Find my Course Website</h5>
+                    <h5 class="modal-title" id="findmycourseModalLabel">UIUC Find my Course Website <a href="https://github.com/linuszhu1031/FindMyCourse.com">(Github Link)</a> </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-  
-  
+                  <div class="modal-body" style="line-height: 34px">
+                      This was my user interface class semester project and was worked on by five university students including myself. 
+                      Our group developed the project over the semester with key emphasis on user experience concepts and designs. 
+                      Our idea was to create a website that would help recommend courses tailored to UIUC students based on their interests. Additional features on our website also included improving the course’s catalogue and helping grad students find professors that matched their research interests. 
+                      The website itself was written in HTML/CSS/JS and was done using the bootstrap package. 
+                      Additionally, the website was hosted using the cPanel. 
+                      The development time was roughly three months and focused on an agile development cycle. 
+                      Upon our website's completion, we were able to address each of our targetted user's problems and have them be satisfied with our implemented solution.
+                      Working on this project helped me learn about connecting user interface concepts with website development along with the process of implementing user's feedbacks.                     
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                   </div>
                 </div>
               </div>
           </div>
 
 
+          <!-- 3rd project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#facialrecogmodal">
               <div class="card" style="width: 19rem; height:60vh;">
@@ -225,22 +222,31 @@
             </button>
           </div>
 
+          <!-- 3rd Project Modal -->
           <div class="modal fade" id="facialrecogmodal" tabindex="-1" role="dialog" aria-labelledby="facialrecogmodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Android Facial Recognition</h5>
+                    <h5 class="modal-title" id="facialrecogModalLabel">Android Facial Recognition <a href="https://github.com/chriskang97/ECE_420">(Github Link)</a></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-  
-  
+                  <div class="modal-body" style="line-height: 34px">
+                      This was my digital signal processing lab final project and was worked on by three university students including myself. 
+                      The project’s requirement was to implement a DSP algorithm from a written research paper, take that algorithm and create a meaningful product that users can use, and implement the algorithm on an android app. 
+                      Our focused DSP algorithm was the eigenfaces and canny/sobel algorithm. 
+                      The final intended implemented product utilizing these algorithms would be a security camera app. 
+                      Our app would focus on being able to detect a person’s face and check if the person’s face was in the facial database. 
+                      If the face was in the database, we would return the predicted name associated with the picture taken in real time. 
+                      Additionally, our app would be able to take a picture of an object that a person was holding and determine whether the object was dangerous or not. 
+                      The development cycle was roughly two months and was done on an iterative development cycle. 
+                      Overall, the app managed to run relatively smooth and the identification portion ook roughly from 2-4 seconds. 
+                      This was to be expected as we have to apply histogram equalization and canny edge onto the captured frame image.
+                      The general lessons learned from doing this project came from implementing a research paper algorithm and constantly improving upon our implementation until we managed to hit all our desired milestones. 
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                   </div>
                 </div>
               </div>
@@ -248,372 +254,432 @@
 
         </div>
 
+      <!-- Projects on 2nd Row -->
         <div class="row" >
 
-            <!-- 1st Project  -->
-            <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
-              <button class="btn btn-fix" data-toggle="modal" data-target="#ece470modal">
-                <div class="card" style="width: 19rem; height:60vh;" >    
-                  <h5 class="card-title">Cup Stacking Robot</h5>
-  
-  
-                    <div style="height:25vh">
-                        <img class="card-img-top" src="css/assets/ece_470_1.png" alt="Cup Stacking Robot">
-                    </div>
-                    
-                    <div class="card-body text-left">
-                      <p class="card-text"> <b>Project Type:</b> Robotics Semester Project </p>
-                      <p class="card-text"> <b>Role:</b> Implementing I2C and CAN Bus Protocals using the STM32 microcontroller in C</p>
-                      <p class="card-text"> <b>Keywords:</b> Circuits, Power, Microcontroller, Verification, C </p>
-                    </div>
-  
+          <!-- 4th Project  -->
+          <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
+            <button class="btn btn-fix" data-toggle="modal" data-target="#ece470modal">
+              <div class="card" style="width: 19rem; height:60vh;" >    
+                <h5 class="card-title">Cup Stacking Robot</h5>
+
+                  <div style="height:25vh">
+                      <img class="card-img-top" src="css/assets/ece_470_1.png" alt="Cup Stacking Robot">
                   </div>
-  
-              </button>
+                  
+                  <div class="card-body text-left">
+                    <p class="card-text"> <b>Project Type:</b> Robotics Semester Project </p>
+                    <p class="card-text"> <b>Role:</b> Desiging the robot's tasks and writing up technical documents</p>
+                    <p class="card-text"> <b>Keywords:</b> Robotics, Simulation, V-REP </p>
+                  </div>
+
+                </div>
+            </button>
+          </div>
+
+          <!-- 4th Project Modal -->
+          <div class="modal fade" id="ece470modal" tabindex="-1" role="dialog" aria-labelledby="ece470modal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ece470ModalLabel">Cup Stacking Robot <a href="https://youtu.be/Ce9EQqSbF6w">(Video Link)</a> <a href="https://github.com/ap3456/ECE470.git">(Github Link)</a> </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" style="line-height: 34px">
+                    This was my robotics semester term project and was worked on by four university students including myself. 
+                    The project’s main requirement was for us to come up with a robotic task/design and to simulate our robot doing these tasks. 
+                    Our project idea was to make a cup stacking robot in which the robot would stack cups based on the number that the user inputted.
+                    We used the UR3 robot as our main robot and simulated the robot in V-REP. 
+                    The project timespan was roughly three months and the development cycle was done on an iterative life cycle. 
+                    In the end, we were able to successfully simulate the cup stacking procedure and incorporate sensor readings, forward kinematics, decision making, etc.
+                    This project taught me the fundamental usage of V-REP along with the applications of different robotics concept that could be applied to any currently existing robots. 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
             </div>
-  
-  
-            <!-- 1st Project Modal -->
-            <div class="modal fade" id="ece470modal" tabindex="-1" role="dialog" aria-labelledby="ece470modal" aria-hidden="true">
+          </div>
+
+          <!-- 5th Project -->
+          <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
+            <button class="btn btn-fix" data-toggle="modal" data-target="#databasemodal">
+              <div class="card" style="width: 19rem; height:60vh;" >
+                <h5 class="card-title">Student Job Specialize Website</h5>
+
+                <div style="height:25vh">
+                    <img class="card-img-top" src="css/assets/cs_411_1.png" alt="Student Job Specialize Website">
+                </div>
+                
+                <div class="card-body text-left">
+                  <p class="card-text"> <b>Project Type:</b> Database Semester Project </p>
+                  <p class="card-text"> <b>Role:</b> Team leader of the group, focused on data scraping and database schema</p>
+                  <p class="card-text"> <b>Keywords:</b> Database, SQL, MySQL, Django, HTML </p>
+                </div>
+              </div>
+            </button>
+          </div>
+          
+          <!-- 5th Project Modal -->
+          <div class="modal fade" id="databasemodal" tabindex="-1" role="dialog" aria-labelledby="databasemodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Cup Stacking Robot</h5>
+                    <h5 class="modal-title" id="databaseModalLabel">Student Job Specialize Website <a href="https://github.com/jayliu1117/JCY">(Github Link)</a> </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-  
-  
+                      This was my database semester term project and was worked on by three university students, including myself. 
+                      Our given goal was to come up with an idea or concept that utilized a database and successfully make an application showcasing this.
+                      Our proposed idea was to create a website that would help students find jobs in the industry based on the student’s background and taken courses.
+                      We used Django to host our website locally and used SQL to retrive information from the database hosted on MySQL. 
+                      The project timespan was roughly 3 months and was done on an iterative cycle. 
+                      Due to everyone knowing what tasks that they had to complete, we were able to weekly progress meetings and allocate our time accordingly. 
+                      This project helped me with creating a database from scratch and incorporate the backend of our website. 
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                   </div>
                 </div>
               </div>
-            </div>
-  
-  
-            <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
-              <button class="btn btn-fix" data-toggle="modal" data-target="#findmycoursemodal">
-                <div class="card" style="width: 19rem; height:60vh;" >
-                  <h5 class="card-title">Student Job Specialize Website</h5>
-  
+          </div>
+
+          <!-- 6th Project -->
+          <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
+            <button class="btn btn-fix" data-toggle="modal" data-target="#pendbalancemodal">
+              <div class="card" style="width: 19rem; height:60vh;">
+                <h5 class="card-title">Pendulum Balance</h5>
+
                   <div style="height:25vh">
-                      <img class="card-img-top" src="css/assets/cs_411_1.png" alt="Student Job Specialize Website">
-                  </div>
-                  
+                    <img class="card-img-top" src="css/assets/ece_486_1.jpg" alt="Pendulum Balance">
+                  </div> 
+
                   <div class="card-body text-left">
-                    <p class="card-text"> <b>Project Type:</b> UX Semester Project </p>
-                    <p class="card-text"> <b>Role:</b> Team leader of the group, focused on website design and functionalities</p>
-                    <p class="card-text"> <b>Keywords:</b> UX Design, HTML, JS, Boostrap, </p>
+                    <p class="card-text"> <b>Project Type:</b> Control Systems Final Project </p>
+                    <p class="card-text"> <b>Role:</b> Coming up with state space models and designing a PD/PI controller </p>
+                    <p class="card-text"> <b>Keywords:</b> Control Systems, Mechanics, Controller, MATLAB </p>
+                  </div>
+              </div>
+            </button>
+          </div>
+          
+          <!-- 6th Project Modal -->
+          <div class="modal fade" id="pendbalancemodal" tabindex="-1" role="dialog" aria-labelledby="pendbalancemodal" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="pendbalanceModalLabel">Pendulum Balance</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      This project was the final lab assignment that we had to do for our controls system class and was worked on by two university students including myself. 
+                      The assignment’s main goal was to have the reaction wheel pendulum be able to stand upright without any physical interaction and to utilize concepts from controls systems to help maintain that position. 
+                      We used MATLAB/Simulink to design and simulate our control systems. 
+                      The assignment’s length was approximately one month and was done on a waterfall development cycle. 
+                      Overall, the assignment allowed us to utilize our knowledge in controls, helped us design our own system, and apply them on a real mechanical component. 
+                      The team cooperation for this project was also distributed evenly and thus, most of the deadlines and requirements were finished in a smooth manner. 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
-              </button>
-            </div>
-  
-            <div class="modal fade" id="findmycoursemodal" tabindex="-1" role="dialog" aria-labelledby="findmycoursemodal" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">UIUC Find my Course Website</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-    
-    
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-            </div>
-  
-  
-            <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
-              <button class="btn btn-fix" data-toggle="modal" data-target="#facialrecogmodal">
-                <div class="card" style="width: 19rem; height:60vh;">
-                  <h5 class="card-title">Pendulum Balance</h5>
-  
-                    <div style="height:25vh">
-                      <img class="card-img-top" src="css/assets/ece_420_1.jpg" alt="Android Facial Recognition App">
-                    </div> 
-  
-                    <div class="card-body text-left">
-                      <p class="card-text"> <b>Project Type:</b> Digital Signal Processing Final Project </p>
-                      <p class="card-text"> <b>Role:</b> Team leader of the group, focused on facial detection algorithm and Android implementation</p>
-                      <p class="card-text"> <b>Keywords:</b> Python, Image Processing, Algorithm, Java, Android </p>
-                    </div>
-                </div>
-              </button>
-            </div>
-  
-            <div class="modal fade" id="facialrecogmodal" tabindex="-1" role="dialog" aria-labelledby="facialrecogmodal" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Android Facial Recognition</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-    
-    
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-            </div>
+              </div>
+          </div>
   
         </div>
 
-
+      <!-- Projects on 3rd Row -->
         <div class="row" >
 
-            <!-- 1st Project  -->
-            <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
-              <button class="btn btn-fix" data-toggle="modal" data-target="#ece445modal">
-                <div class="card" style="width: 19rem; height:60vh;" >    
-                  <h5 class="card-title">RPG Game on FPGA Board</h5>
-  
-  
-                    <div style="height:25vh">
-                        <img class="card-img-top" src="css/assets/ece_385_1.jpg" alt="Powerboard for the Illini-SAT">
-                    </div>
-                    
-                    <div class="card-body text-left">
-                      <p class="card-text"> <b>Project Type:</b> Senior Design Project </p>
-                      <p class="card-text"> <b>Role:</b> Implementing I2C and CAN Bus Protocals using the STM32 microcontroller in C</p>
-                      <p class="card-text"> <b>Keywords:</b> Circuits, Power, Microcontroller, Verification, C </p>
-                    </div>
-  
+          <!-- 7th Project  -->
+          <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
+            <button class="btn btn-fix" data-toggle="modal" data-target="#ece385modal">
+              <div class="card" style="width: 19rem; height:60vh;" >    
+                <h5 class="card-title">RPG Game on FPGA Board</h5>
+
+
+                  <div style="height:25vh">
+                      <img class="card-img-top" src="css/assets/ece_385_1.jpg" alt="RPG Game on FPGA Board">
                   </div>
-  
-              </button>
+                  
+                  <div class="card-body text-left">
+                    <p class="card-text"> <b>Project Type:</b> Digital Systems Hardware Final Project </p>
+                    <p class="card-text"> <b>Role:</b> Team leader of the group, worked on sprite implementation and hardware connection.</p>
+                    <p class="card-text"> <b>Keywords:</b> Hardware, FPGA, SystemVerilog, Memory Storage  </p>
+                  </div>
+
+                </div>
+
+            </button>
+          </div>
+
+          <!-- 7th Project Modal -->
+          <div class="modal fade" id="ece385modal" tabindex="-1" role="dialog" aria-labelledby="ece385modal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ece385ModalLabel">RPG Game on FPGA Board <a href="https://github.com/chriskang97/ECE_385>">(Github Link)</a></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    This was my digital systems laboratory final project and was worked on by two people including myself. 
+                    The requirements for the project focused on utilizing the FPGA board and SystemVerilog. 
+                    The chosen project was a RPG game as several of the necessary setup needed was done in prior labworks. 
+                    The project lasted for roughly two months and was done on a waterfall development cycle.   
+                    In the end, we managed to create a functioning prototype game that was able to draw sprites, take in key inputs, and simulate a basic combat sequence.
+                    The main lessons that were obtained from doing the project came from how hardware programming functions and taking in key hardware considerations when designing our game. 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
             </div>
-  
-  
-            <!-- 1st Project Modal -->
-            <div class="modal fade" id="ece445modal" tabindex="-1" role="dialog" aria-labelledby="ece445modal" aria-hidden="true">
+          </div>
+
+          <!-- 8th Project -->
+          <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
+            <button class="btn btn-fix" data-toggle="modal" data-target="#eohemodal">
+              <div class="card" style="width: 19rem; height:60vh;" >
+                <h5 class="card-title">Interactive LED Cube</h5>
+
+                <div style="height:25vh">
+                    <img class="card-img-top" src="css/assets/eoh_1.png" alt="Interactive LED Cube">
+                </div>
+                
+                <div class="card-body text-left">
+                  <p class="card-text"> <b>Project Type:</b> Engineering Open House Showcase </p>
+                  <p class="card-text"> <b>Role:</b> Modeling the Cube, Designing the circuit, Soldering components</p>
+                  <p class="card-text"> <b>Keywords:</b> Circuits, CAD, 3D Printing, Soldering, Technical Documentaion  </p>
+                </div>
+              </div>
+            </button>
+          </div>
+          
+          <!-- 8th Project Modal -->
+          <div class="modal fade" id="eohemodal" tabindex="-1" role="dialog" aria-labelledby="eohemodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Powerboard for the Illini-SAT</h5>
+                    <h5 class="modal-title" id="eohModalLabel">Interactive LED Cube</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-  
-  
+                      This was my engineering open house event project and was worked on by three university students including myself. 
+                      This annual event showcased numerous student's engineering/science department projects.
+                      As we were part of the IEEE circuits club, our project had to center around some form of circuitry. 
+                      We ended up making an interactive LED cube in which the LED would either brighten or dim based on proximity. 
+                      The project timespan was roughly two months and was done on a waterfall cycle.    
+                      Though we only managed to solder two out of the six sides, we were able to demonstrate that our functionality worked properly and create a meaningful product that the general public enjoyed interacting with.
+                      Overall, I learned how to apply some basic circuits concepts, formulate schedules and tasks as a team, and solder multiple components together.  
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                   </div>
                 </div>
               </div>
-            </div>
-  
-  
-            <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
-              <button class="btn btn-fix" data-toggle="modal" data-target="#findmycoursemodal">
-                <div class="card" style="width: 19rem; height:60vh;" >
-                  <h5 class="card-title">Interactive LED Cube</h5>
-  
+          </div>
+
+          <!-- 9th Project -->
+          <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
+            <button class="btn btn-fix" data-toggle="modal" data-target="#lmit">
+              <div class="card" style="width: 19rem; height:60vh;">
+                <h5 class="card-title">Alzheimer Smart Watch</h5>
+
                   <div style="height:25vh">
-                      <img class="card-img-top" src="css/assets/cs_412_1.jpg" alt="UIUC Find my Course Website">
-                  </div>
-                  
+                    <img class="card-img-top" src="css/assets/alz_watch_1.png" alt="Alzheimer Smart Watch">
+                  </div> 
+
                   <div class="card-body text-left">
-                    <p class="card-text"> <b>Project Type:</b> UX Semester Project </p>
-                    <p class="card-text"> <b>Role:</b> Team leader of the group, focused on website design and functionalities</p>
-                    <p class="card-text"> <b>Keywords:</b> UX Design, HTML, JS, Boostrap, </p>
+                    <p class="card-text"> <b>Project Type:</b> LemelsonMIT Project </p>
+                    <p class="card-text"> <b>Role:</b> Focused on user interface of watch and docking system, Conducted interviews with users </p>
+                    <p class="card-text"> <b>Keywords:</b> Health, IoT, Smartwatch, UX Design, User Survey </p>
+                  </div>
+              </div>
+            </button>
+          </div>
+          
+          <!-- 9th Project Modal -->
+          <div class="modal fade" id="lmitl" tabindex="-1" role="dialog" aria-labelledby="lmit" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="lmitModalLabel">Alzheimer Smart Watch</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      This was my irst engineering project that I was able to participate in and was comprised of roughly 20 high school students.
+                      We participated in the Lemelson-MIT event in which approximately 14 schools would be given a grant and be chosen to showcase their ideas to the general public at MIT. 
+                      Our idea was to make a smart watch and docking system that targeted in people who had first to second stage Alzheimers and patients who specifically would potentially wander out during the night. 
+                      We approximately had 7-8 months to prepare for the showcase and we mostly worked on an agile development cycle. 
+                      This was where my fundamental knowledge in developing solutions for problems that existed in the real world began.  
+                      The people who mentored me during this time along with the people I worked with would give me an important lesson in networking and a deep honor in being able to work alongside with these people. 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
-              </button>
-            </div>
-  
-            <div class="modal fade" id="findmycoursemodal" tabindex="-1" role="dialog" aria-labelledby="findmycoursemodal" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">UIUC Find my Course Website</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-    
-    
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-            </div>
-  
-  
-            <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
-              <button class="btn btn-fix" data-toggle="modal" data-target="#facialrecogmodal">
-                <div class="card" style="width: 19rem; height:60vh;">
-                  <h5 class="card-title">Alzheimer Smart Watch</h5>
-  
-                    <div style="height:25vh">
-                      <img class="card-img-top" src="css/assets/ece_420_1.jpg" alt="Android Facial Recognition App">
-                    </div> 
-  
-                    <div class="card-body text-left">
-                      <p class="card-text"> <b>Project Type:</b> Digital Signal Processing Final Project </p>
-                      <p class="card-text"> <b>Role:</b> Team leader of the group, focused on facial detection algorithm and Android implementation</p>
-                      <p class="card-text"> <b>Keywords:</b> Python, Image Processing, Algorithm, Java, Android </p>
-                    </div>
-                </div>
-              </button>
-            </div>
-  
-            <div class="modal fade" id="facialrecogmodal" tabindex="-1" role="dialog" aria-labelledby="facialrecogmodal" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Android Facial Recognition</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-    
-    
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-            </div>
+              </div>
+          </div>
   
         </div>
                 
     </div>
 
 
-    <div id="class" class="container-fluid text-left" style="padding-top:30px; ">
-        <h1 style="padding-left:20px; padding-right:20px; height: 88vh;"> <u>Classwork</u> <br> 
-          <ul class="text-left" style="font-size:25px; font-family:'Times New Roman' ; line-height: 1.1; list-style-type: disc; " > 
-            <li> CS 412 Introduction to Data Mining: This course specifically focused on data mining and pattern recognition. Assignments were done in Python and covered over different algorithms such as apriori pruning, decision trees, and gaussian mixture models. 
-              <br> <a id="lastitem" href="https://github.com/chriskang97/CS_412"> <b>Github Link</b></a></li>
-            <br> 
-            <li> ECE 420 Digital Signal Processing Laboratory: This course specifically focused on DSP algorithms ranging from audio to image/video. Assignments were done in Python/Android and covered over different algorithms such as filter design, pitch tuning, edges highlight, etc. 
-              <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_420"> <b>Github Link</b></a></li>
-            <br> 
-            <li> ECE 448 Introduction to Artifical Intelligence: This course specifically focused on artificial intelligence and machine learning. Assignments were done in Python and covered over different algorithms such as maze traversal, alpha-beta pruning, neural networks, etc
-              <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_448"> <b>Github Link</b></a></li>
-            <br> 
-            <li> ECE 417 Multimedia Signal Processing: This course specifically focused on multimedia signal processing. Assignments were done in Python/MATLAB and covered over different algorithms such as  CNN and lip synching. 
-              <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_417"> <b> Ded Github Link</b></a></li>
-            <br> 
-            <li> ECE 398 BD Making Sense of Big Data: This course specifically focused on big data concepts and applications. Assignments were done in Python via jupyter notebooks and covered over different algorithms such as the Shazam, neural networks, linear regression, etc.
-              <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_398"> <b>Ded Github Link</b></a></li>
-            <br> 
-            <li> CS 225 Introduction to Data Structure and Algorithms: This course specifically focused on data structures and algorithms. Assignments were done in C++ and covered over different data structure applications such as the stack/queue, trees, graphs, etc.
-              <br> <a id="lastitem" href="https://github.com/chriskang97/CS_225"> <b> Ded Github Link</b></a></li>
-          </ul> 
-        </h1> 
-    
-      
+    <!-- Experience -->
+    <div id="experience" class="container-fluid text-left" style="padding-top:30px;padding-bottom:30px; ">
+        <h2>Experience Showcase</h2>
+  
+        <!-- Experience on 1st Row -->
+          <div class="row" >
+  
+            <!-- 1st Experience  -->
+            <div class="col-md-6 text-center" style="margin-top:20px; padding-bottom:40px;">
+              <button class="btn btn-fix" data-toggle="modal" data-target="#makerlabmodal">
+                <div class="card" style="width: 19rem; height:60vh;" >    
+                  <h5 class="card-title">MakerLab </h5>
+  
+                    <div style="height:25vh">
+                        <img class="card-img-top" src="css/assets/makerlab_1.jpg" alt="makerlab">
+                    </div>
+                    
+                    <div class="card-body text-left">
+                      <p class="card-text"> <b>Experience Type:</b> Internship </p>
+                      <p class="card-text"> <b>Role:</b> Maintaining 3D printers, Assisting customers, Developing new solutions </p>
+                      <p class="card-text"> <b>Keywords:</b> 3D Printing, Technician, Consumer Interaction </p>
+                    </div>
+  
+                  </div>
+  
+              </button>
+            </div>
+  
+            <!-- 1st Experience Modal -->
+            <div class="modal fade" id="makerlabmodal" tabindex="-1" role="dialog" aria-labelledby="makerlabmodal" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="makerlabModalLabel"> MakerLab </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div> 
+                  <div class="modal-body" style="line-height: 34px">
+                      This experience was roughly my second internship that I’ve done so far. 
+                      MakerLab is a 3D printing lab which offers 3D printing services ranging from the general consumer to students. 
+                      Print orders can be done via in person or by using the online form submission. Depending on the size of the print, printing time can range from a few hours to a few days. 
+                      The supervisor in charge of us told us to discover any problems or issues that could be improved upon the lab and was what I mostly focused on during the span of the internship. 
+                      The internship roughly lasted for 6 months throughout the school semester and the cycle was leaning towards more agile as we tended to listen to our customers in improving the overall quality of the facility. 
+                      The main overall lessons that were useful to me was interacting with the customers and attempting to find a solution current issues in the facility. 
+                      Helping those issues made me feel like I was able to help make a positive contribution towards the business along with improving the overall facility. 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- 2nd Experience -->
+            <div class="col-md-6 text-center" style="margin-top:20px; padding-bottom:40px;">
+              <button class="btn btn-fix" data-toggle="modal" data-target="#kofmanmodal">
+                <div class="card" style="width: 19rem; height:60vh;" >
+                  <h5 class="card-title">Kofman Technologies</h5>
+  
+                  <div style="height:25vh">
+                      <img class="card-img-top" src="css/assets/kofman_1.jpg" alt="kofman">
+                  </div>
+                  
+                  <div class="card-body text-left">
+                    <p class="card-text"> <b>Experience Type:</b> Internship </p>
+                    <p class="card-text"> <b>Role:</b> Design of controller, Organizing surveys for user feedback, Soldering components</p>
+                    <p class="card-text"> <b>Keywords:</b> Drones, UX Design, UX Interviews, Soldering </p>
+                  </div>
+                </div>
+              </button>
+            </div>
+  
+            <!-- 2nd Experience Modal -->
+            <div class="modal fade" id="kofmanmodal" tabindex="-1" role="dialog" aria-labelledby="kofmanmodal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="kofmanModalLabel">Kofman Technologies <a href="https://github.com/linuszhu1031/FindMyCourse.com">(Github Link)</a> </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" style="line-height: 34px">
+                        This experience was roughly my first internship that I’ve done so far. 
+                        Kofman Technologies was a startup company that focused on making consumer friendly drones and drone controllers. 
+                        During the time that I was working at the company, the company was focused on creating a user friendly drone controller. 
+                        The main difference was that the design focused on a joystick controller rather than the traditional rectangular shaped box controller. 
+                        The time I spent working in this internship was roughly 7 months and we mostly followed an agile development cycle. 
+                        I was able to learn more about the startup culture along with the different work cycle that I had to adapt to at the time. 
+                        Overall, I was able to learn more about idea developments along with applying some of my background skills in a rapid developed product.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
 
-
-    </div>
-
-
-
-    <div id="misc"class="container-fluid text-left" style= "padding-top:30px;padding-bottom:70px">
-        <h2>Miscellaneous</h2>
-          <div style="font-size: 20px; font-family:'Times New Roman';">
-              <p>Email: chriskang97@gmail.com 
-              <br>Github Profile: <a href=https://github.com/chriskang97>https://github.com/chriskang97</a> </p>
-              <p>For anyone interested in looking at my resume or wished to get in contact with me, please contact via email. </p>
-              <p>Navigation bar template credit: <a href="https://codepen.io/maheshambure21/pen/QwXaRw"> link </a> 
-              <br>Website was made using Bootstrap 4 and is currently hosted on my Github account. 
-              <br>All pictures and assets used are photos I've taken in my travels or comptuer screenshots.</p>
           </div>
 
-
-      </div> 
-
     </div>
 
-    <!-- <div class="container-fluid text-center">
-        <img src="css/assets/test_avi.jpg" style="border-radius: 50%; width: 325px; height: 325px;" />
-
-        <div class = "container bg-light" style="margin-top: 20px ; padding-top: 20px; padding-bottom: 50px;"> 
-          <h2 style="margin-top: 3vh;">Boi fuk dis</h2>
-        </div>
-
-    </div> -->
-
-
-
-  
-
-<!-- 
-    <nav class="shift">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Downloads</a></li>
-        <li><a href="#">More</a></li>
-        <li><a href="#">Nice staff</a></li>
-      </ul>
-    </nav> -->
-
-
-
+    <!-- Classwork -->
+    <div id="class" class="container-fluid text-left" style="padding-top:30px; ">
+      <h1 style="padding-left:20px; padding-right:20px; height: 88vh;"> <u>Classwork</u> <br> 
+        <ul class="text-left" style="font-size:25px; font-family:'Times New Roman' ; line-height: 1.1; list-style-type: disc; " > 
+          <li> CS 412 Introduction to Data Mining: This course specifically focused on data mining and pattern recognition. Assignments were done in Python and covered over different algorithms such as apriori pruning, decision trees, and gaussian mixture models. 
+            <br> <a id="lastitem" href="https://github.com/chriskang97/CS_412"> <b>Github Link</b></a></li>
+          <br> 
+          <li> ECE 420 Digital Signal Processing Laboratory: This course specifically focused on DSP algorithms ranging from audio to image/video. Assignments were done in Python/Android and covered over different algorithms such as filter design, pitch tuning, edges highlight, etc. 
+            <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_420"> <b>Github Link</b></a></li>
+          <br> 
+          <li> ECE 448 Introduction to Artifical Intelligence: This course specifically focused on artificial intelligence and machine learning. Assignments were done in Python and covered over different algorithms such as maze traversal, alpha-beta pruning, neural networks, etc
+            <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_448"> <b>Github Link</b></a></li>
+          <br> 
+          <li> ECE 417 Multimedia Signal Processing: This course specifically focused on multimedia signal processing. Assignments were done in Python/MATLAB and covered over different algorithms such as  CNN and lip synching. 
+            <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_417"> <b>Github Link</b></a></li>
+          <br> 
+          <li> ECE 398 BD Making Sense of Big Data: This course specifically focused on big data concepts and applications. Assignments were done in Python via jupyter notebooks and covered over different algorithms such as the Shazam, neural networks, linear regression, etc.
+            <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_398"> <b>Github Link</b></a></li>
+          <br> 
+          <li> CS 225 Introduction to Data Structure and Algorithms: This course specifically focused on data structures and algorithms. Assignments were done in C++ and covered over different data structure applications such as the stack/queue, trees, graphs, etc.
+            <br> <a id="lastitem" href="https://github.com/chriskang97/CS_225"> <b>Github Link</b></a></li>
+        </ul> 
+      </h1> 
+    </div>
 
 
-<!-- 
-    <div id="icons" class = "center" align = "center">
-      <a href = "courselist.html">
-        <img src="css/assets/img/courselisticon.png" width = 332 height = 332 alt = "">
-      </a>
-      <a href = "findmycourse.html">
-        <img src="css/assets/img/findmycourseicon.png" width = 332 height = 332 alt = "">
-      </a>
-      <a href = "findaresearchgroup.html">
-        <img src="css/assets/img/findaresearchgroupicon.png" width = 332 height = 332 alt = "">
-      </a>
-    </div> -->
-
-    <!-- <script>
-        $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-    
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              if (target.length) {
-                $('html,body').animate({
-                  scrollTop: target.offset().top-50
-                }, 1000);
-                return false;
-              }
-            }
-          });
-        });
-      </script> -->
+    <!-- Miscellaneous -->
+    <div id="misc"class="container-fluid text-left" style= "padding-top:30px;padding-bottom:70px">
+      <h2>Miscellaneous</h2>
+      <div style="font-size: 20px; font-family:'Times New Roman';">
+          <p>Email: chriskang97@gmail.com 
+          <br>Github Profile: <a href=https://github.com/chriskang97>https://github.com/chriskang97</a> </p>
+          <p>For anyone interested in looking at my resume or wishes to get in contact with me, please contact via email. </p>
+          <p>Navigation bar template credit: <a href="https://codepen.io/maheshambure21/pen/QwXaRw"> link </a> 
+          <br>Website was made using Bootstrap 4 and is currently hosted on my Github account. If there are any specific format errors, please contact via email.
+          <br>All pictures and assets used are photos I've taken or screenshots taken on my computer.
+          <br>A huge thanks to the many people that helped me design this website.</p>
+      </div>
+    </div> 
 
   </body>
 </html>
