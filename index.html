@@ -14,40 +14,78 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
     <title>Home</title>
   </head>
 
   <body data-spy="scroll" data-target="#shift" data-offset="50">
 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Hidden brand</a>
+
+            
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </nav>
+
+
     <!-- Navbar Content -->
-    <nav class="shift fixed-top">
-      <ul>
-        <div class="row">
-          <li class="col-md-2 nav-item">
-              <a class="nav-link" href="#profile">Profile</a>
-          </li>
+    <nav role="navigation" class="shift fixed-top navbar-expand-md navbar-light  ">
 
-          <li class="col-md-2 nav-item">
-              <a class="nav-link" href="#background">Background</a>
-          </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <li class="col-md-2 nav-item">
-              <a class="nav-link" href="#skillset">Skillset</a>
-          </li>
 
-          <li class="col-md-2 nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
+        <div id="myNavBar" class="shift-collapse ">
+        <ul>
+          <div class="row">
+            <li class="col-md-2 nav-item">
+                <a class="nav-link" href="#profile">Profile</a>
+            </li>
 
-          <li class="col-md-2 nav-item">
-              <a class="nav-link" href="#class">Classwork</a>
-          </li>
+            <li class="col-md-2 nav-item">
+                <a class="nav-link" href="#background">Background</a>
+            </li>
 
-          <li class="col-md-2 nav-item">
-              <a class="nav-link" href="#misc">Misc</a>
-          </li> 
-        </div>
-      </ul>
+            <li class="col-md-2 nav-item">
+                <a class="nav-link" href="#skillset">Skillset</a>
+            </li>
+
+            <li class="col-md-2 nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li class="col-md-2 nav-item">
+                <a class="nav-link" href="#class">Classwork</a>
+            </li>
+
+            <li class="col-md-2 nav-item">
+                <a class="nav-link" href="#misc">Misc</a>
+            </li> 
+          </div>
+        </ul>
+      </div>
     </nav>
 
     <!-- Profile -->
@@ -64,18 +102,18 @@
         
     <!-- Background -->
     <div id="background" class="container-fluid text-left" style= "padding-top:30px;padding-bottom:70px">
-      <h2>Background</h2>
-      <div style="font-size: 20px; font-family:'Times New Roman';">
-        <p>Hi there! My name is Chris and I graduated from the University of Illinois Urbana Champaign in December 2019. My current interests lies in data engineering, data analytics, machine learning, and deep learning. Other areas that I am interested in includes robotics, control systems, image processing, and back end development. </p>
-        <p>I am currently looking for a full time position relating to data engineering, data analytics, or tech consultant analyst in the east coast area. Currently, I am currently doing a self driven learning towards data engineering projects along with machine learning and deep learning applications. </p> 
+      <h2><u>Background</u></h2>
+      <div style="font-size: 3.5vh; font-family:'Times New Roman';">
+        <p>Hi there! My name is Chris and I graduated from the University of Illinois at Urbana-Champaign in December 2019. My current interests lie in data engineering, data analytics, machine learning, and deep learning. Other areas that I am interested in include robotics, control systems, image processing, and back-end development. </p>
+        <p>I am currently looking for a full time position related to data engineering, data analytics, or consultanting analyst in the east coast area. I am currently doing a self driven learning towards data engineering projects along with machine learning and deep learning applications. </p> 
         <p>My hobbies include cooking, traveling, 3D printing, watching broadway shows, and playing golf.</p>
       </div>
     </div>
 
     <!-- Skillset -->
     <div id="skillset" class="container-fluid text-left" style="padding-top:30px; list-style-type: none; ">
-          <h1 style="padding-left:20px; padding-right:20px; min-height: 42vh;"> <u>Technical Skills</u> <br> 
-            <ul class="text-left" style="font-size:25px; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
+          <h1 style="padding-left:20px; padding-right:20px; min-height: 42vh; min-width:50 rem;"> <u>Technical Skills</u> <br> 
+            <ul class="text-left" style="font-size:3.5vh; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
               <li> Main Language: Python, Proficient: C++, C, MATLAB, HTML, SQL, SystemVerilog, Java, JavaScript </li>
               <br> 
               <li> Primary language used is Python and have used libraries such as Numpy, Matplot, Sckit Learn, TensorFlow, Panda </li> 
@@ -87,7 +125,7 @@
           </h1>   
 
           <h1 style="padding-left:20px; padding-right:20px; min-height: 42vh; margin-top: 3vh"> <u>Non-Technical Skills</u> <br> 
-            <ul class="text-left" style="font-size:25px; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
+            <ul class="text-left" style="font-size:3.5vh; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
               <li> For several projects, assigned group members roles and tasks that needed to be done along with coordinating communications between each member's needs and issues within the group.</li>
               <br> 
               <li> Delegated projects milestones and schedule, reviewed each team member's contribution and results, and motivated overall group's atmosphere. </li> 
@@ -102,7 +140,7 @@
 
     <!-- Projects -->
     <div id="projects" class="container-fluid text-left" style="padding-top:30px;padding-bottom:30px; ">
-      <h2>Project Showcase</h2>
+      <h2><u>Project Showcase</u></h2>
 
       <!-- Project on 1st Row -->
         <div class="row" >
@@ -110,11 +148,11 @@
           <!-- 1st Project  -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#ece445modal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;" >    
+              <div class="card" style="max-width: 19rem; min-height:30vh; " >    
                 <h5 class="card-title">Powerboard for the Illini-SAT</h5>
 
-                  <div style="min-height:25vh">
-                      <img class="card-img-top" src="css/assets/ece_445_1.jpg" alt="Powerboard for the Illini-SAT">
+                  <div style="max-height:19vh">
+                      <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/ece_445_1.jpg" alt="Powerboard for the Illini-SAT">
                   </div>
                   
                   <div class="card-body text-left">
@@ -138,7 +176,7 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div> 
-                <div class="modal-body" style="line-height: 34px">
+                <div class="modal-body" style="line-height:34px">
                     This was my senior design project and was worked on by three senior students including myself. 
                     Our project goals and components were given by our sponsor, LASSI (Laboratory for Advanced Space Systems at Illinois). 
                     The main goal of our project was to build a new power board for their next generation model of CubeSats, a small cube shaped satellite, along with implementing I2C and CANBus protocols. 
@@ -159,11 +197,11 @@
           <!-- 2nd Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#findmycoursemodal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;" >
+              <div class="card" style="max-width: 19rem; min-height:30vh;" >
                 <h5 class="card-title">UIUC Find my Course Website</h5>
 
-                <div style="min-height:25vh">
-                    <img class="card-img-top" src="css/assets/cs_412_1.jpg" alt="UIUC Find my Course Website">
+                <div style="max-height:19vh">
+                    <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/cs_412_1.jpg" alt="UIUC Find my Course Website">
                 </div>
                 
                 <div class="card-body text-left">
@@ -206,11 +244,11 @@
           <!-- 3rd project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#facialrecogmodal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;">
+              <div class="card" style="max-width: 19rem; min-height:30vh;">
                 <h5 class="card-title">Android Facial Recognition App</h5>
 
-                  <div style="min-height:25vh">
-                    <img class="card-img-top" src="css/assets/ece_420_1.jpg" alt="Android Facial Recognition App">
+                  <div style="max-height:19vh">
+                    <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/ece_420_1.jpg" alt="Android Facial Recognition App">
                   </div> 
 
                   <div class="card-body text-left">
@@ -241,7 +279,7 @@
                       If the face was in the database, we would return the predicted name associated with the picture taken in real time. 
                       Additionally, our app would be able to take a picture of an object that a person was holding and determine whether the object was dangerous or not. 
                       The development cycle was roughly two months and was done on an iterative development cycle. 
-                      Overall, the app managed to run relatively smooth and the identification portion ook roughly from 2-4 seconds. 
+                      Overall, the app managed to run relatively smooth and the identification portion took roughly from 2-4 seconds. 
                       This was to be expected as we have to apply histogram equalization and canny edge onto the captured frame image.
                       The general lessons learned from doing this project came from implementing a research paper algorithm and constantly improving upon our implementation until we managed to hit all our desired milestones. 
                   </div>
@@ -260,11 +298,11 @@
           <!-- 4th Project  -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#ece470modal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;" >    
+              <div class="card" style="max-width: 19rem; min-height:30vh;" >    
                 <h5 class="card-title">Cup Stacking Robot</h5>
 
-                  <div style="min-height:25vh">
-                      <img class="card-img-top" src="css/assets/ece_470_1.png" alt="Cup Stacking Robot">
+                  <div style="max-height:19vh">
+                      <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/ece_470_1.png" alt="Cup Stacking Robot">
                   </div>
                   
                   <div class="card-body text-left">
@@ -306,11 +344,11 @@
           <!-- 5th Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#databasemodal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;" >
+              <div class="card" style="max-width: 19rem; min-height:30vh;" >
                 <h5 class="card-title">Student Job Specialize Website</h5>
 
-                <div style="min-height:25vh">
-                    <img class="card-img-top" src="css/assets/cs_411_1.png" alt="Student Job Specialize Website">
+                <div style="max-height:19vh">
+                    <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/cs_411_1.png" alt="Student Job Specialize Website">
                 </div>
                 
                 <div class="card-body text-left">
@@ -338,8 +376,8 @@
                       Our proposed idea was to create a website that would help students find jobs in the industry based on the student’s background and taken courses.
                       We used Django to host our website locally and used SQL to retrive information from the database hosted on MySQL. 
                       The project timespan was roughly 3 months and was done on an iterative cycle. 
-                      Due to everyone knowing what tasks that they had to complete, we were able to weekly progress meetings and allocate our time accordingly. 
-                      This project helped me with creating a database from scratch and incorporate the backend of our website. 
+                      Due to everyone knowing what tasks that they had to complete, we were able to have weekly progress meetings and allocate our time accordingly. 
+                      This project helped me with creating a database from scratch and incorporating the back-end of our website. 
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -351,11 +389,11 @@
           <!-- 6th Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#pendbalancemodal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;">
+              <div class="card" style="max-width: 19rem; min-height:30vh;">
                 <h5 class="card-title">Pendulum Balance</h5>
 
-                  <div style="min-height:25vh">
-                    <img class="card-img-top" src="css/assets/ece_486_1.jpg" alt="Pendulum Balance">
+                  <div style="max-height:19vh">
+                    <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/ece_486_1.jpg" alt="Pendulum Balance">
                   </div> 
 
                   <div class="card-body text-left">
@@ -400,12 +438,12 @@
           <!-- 7th Project  -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#ece385modal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;" >    
+              <div class="card" style="max-width: 19rem; min-height:30vh;" >    
                 <h5 class="card-title">RPG Game on FPGA Board</h5>
 
 
-                  <div style="min-height:25vh">
-                      <img class="card-img-top" src="css/assets/ece_385_1.jpg" alt="RPG Game on FPGA Board">
+                  <div style="max-height:19vh">
+                      <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/ece_385_1.jpg" alt="RPG Game on FPGA Board">
                   </div>
                   
                   <div class="card-body text-left">
@@ -447,11 +485,11 @@
           <!-- 8th Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#eohemodal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;" >
+              <div class="card" style="max-width: 19rem; min-height:30vh;" >
                 <h5 class="card-title">Interactive LED Cube</h5>
 
-                <div style="min-height:25vh">
-                    <img class="card-img-top" src="css/assets/eoh_1.png" alt="Interactive LED Cube">
+                <div style="max-height:19vh">
+                    <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;"src="css/assets/eoh_1.png" alt="Interactive LED Cube">
                 </div>
                 
                 <div class="card-body text-left">
@@ -492,11 +530,11 @@
           <!-- 9th Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#lmitmodal">
-              <div class="card" style="min-width: 19rem; min-height:60vh;">
+              <div class="card" style="max-width: 19rem; min-height:30vh;">
                 <h5 class="card-title">Alzheimer Smart Watch</h5>
 
-                  <div style="min-height:25vh">
-                    <img class="card-img-top" src="css/assets/alz_watch_1.png" alt="Alzheimer Smart Watch">
+                  <div style="max-height:19vh">
+                    <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/alz_watch_1.png" alt="Alzheimer Smart Watch">
                   </div> 
 
                   <div class="card-body text-left">
@@ -548,11 +586,11 @@
             <!-- 1st Experience  -->
             <div class="col-md-6 text-center" style="margin-top:20px; padding-bottom:40px;">
               <button class="btn btn-fix" data-toggle="modal" data-target="#makerlabmodal">
-                <div class="card" style="min-width: 19rem; min-height:60vh;" >    
+                <div class="card" style="max-width: 19rem; min-height:30vh;" >    
                   <h5 class="card-title">MakerLab </h5>
   
-                    <div style="min-height:25vh">
-                        <img class="card-img-top" src="css/assets/makerlab_1.jpg" alt="makerlab">
+                    <div style="max-height:19vh">
+                        <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/makerlab_1.jpg" alt="makerlab">
                     </div>
                     
                     <div class="card-body text-left">
@@ -595,11 +633,11 @@
             <!-- 2nd Experience -->
             <div class="col-md-6 text-center" style="margin-top:20px; padding-bottom:40px;">
               <button class="btn btn-fix" data-toggle="modal" data-target="#kofmanmodal">
-                <div class="card" style="min-width: 19rem; min-height:60vh;" >
+                <div class="card" style="max-width: 19rem; min-height:30vh;" >
                   <h5 class="card-title">Kofman Technologies</h5>
   
-                  <div style="min-height:25vh">
-                      <img class="card-img-top" src="css/assets/kofman_1.jpg" alt="kofman">
+                  <div style="max-height:19vh">
+                      <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/kofman_1.jpg" alt="kofman">
                   </div>
                   
                   <div class="card-body text-left">
