@@ -141,11 +141,56 @@
     <!-- Projects -->
     <div id="projects" class="container-fluid text-left" style="padding-top:30px;padding-bottom:30px; ">
       <h2><u>Project Showcase</u></h2>
-
       <!-- Project on 1st Row -->
         <div class="row" >
 
           <!-- 1st Project  -->
+          <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
+            <button class="btn btn-fix" data-toggle="modal" data-target="#courseramodal">
+              <div class="card" style="max-width: 19rem; min-height:30vh; " >    
+                <h5 class="card-title">BBQ Restaurant Analytic</h5>
+
+                  <div style="max-height:19vh">
+                      <img class="card-img-top" style="max-height:18.5vh; max-width:18.5rem;" src="css/assets/coursera_1.png" alt="BBQ Restaurant Analytic">
+                  </div>
+                  
+                  <div class="card-body text-left">
+                    <p class="card-text"> <b>Project Type:</b> Data Analytic Capstone Project </p>
+                    <p class="card-text"> <b>Role:</b> Obtaining data, using data analytics, graphing visualization, and creating models to find patterns in the dataset</p>
+                    <p class="card-text"> <b>Keywords:</b> Data Analytics, Python, Machine Learning, Clustering, Unsupervised Learning</p>
+                  </div>
+
+                </div>
+
+            </button>
+          </div>
+
+          <!-- 1st Project Modal -->
+          <div class="modal fade" id="courseramodal" tabindex="-1" role="dialog" aria-labelledby="courseramodal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="courseramodal">BBQ Restaurant Analytic <a href="https://github.com/chriskang97/Coursera_Capstone/tree/master/Final_Project">(Project Link)</a> </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> 
+                <div class="modal-body" style="line-height:34px">
+                    This analysis focused on determining which variables made a larger impact in determining whether a restaurant was successful or not. The general notion of a successful restaurant
+                    can be summarized as good service, food, location, and reasonable pricing. Using the FourSquare API database, I gathered BBQ restaurants data scattered across the USA and created 
+                    a dataset that consisted of the restaurant's name, location, rating, menu items, etc. Due to the many of the rows containing missing values, I evaluated that I cannot make a predictive
+                    model using the current dataset I have as this may not accurately represent the datasets actual distribution. Thus, I focused on making a cluster model that would help identify any patterns 
+                    in the current the dataset. DBSCAN clustering turned out to be the one that was able to give a reasonable cluster and the resulting cluster showed number of rating reviews and pricing to
+                    stand out.   
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd Project  -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#ece445modal">
               <div class="card" style="max-width: 19rem; min-height:30vh; " >    
@@ -166,7 +211,7 @@
             </button>
           </div>
 
-          <!-- 1st Project Modal -->
+          <!-- 2nd Project Modal -->
           <div class="modal fade" id="ece445modal" tabindex="-1" role="dialog" aria-labelledby="ece445modal" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
@@ -194,7 +239,7 @@
             </div>
           </div>
 
-          <!-- 2nd Project -->
+          <!-- 3rd Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#findmycoursemodal">
               <div class="card" style="max-width: 19rem; min-height:30vh;" >
@@ -213,7 +258,7 @@
             </button>
           </div>
 
-          <!-- 2nd Project Modal -->
+          <!-- 3rd Project Modal -->
           <div class="modal fade" id="findmycoursemodal" tabindex="-1" role="dialog" aria-labelledby="findmycoursemodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -239,9 +284,12 @@
                 </div>
               </div>
           </div>
+        </div>
 
+      <!-- Project on 2nd Row -->
+        <div class="row" >
 
-          <!-- 3rd project -->
+          <!-- 4th project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#facialrecogmodal">
               <div class="card" style="max-width: 19rem; min-height:30vh;">
@@ -260,7 +308,7 @@
             </button>
           </div>
 
-          <!-- 3rd Project Modal -->
+          <!-- 4th Project Modal -->
           <div class="modal fade" id="facialrecogmodal" tabindex="-1" role="dialog" aria-labelledby="facialrecogmodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -289,13 +337,8 @@
                 </div>
               </div>
           </div>
-
-        </div>
-
-      <!-- Projects on 2nd Row -->
-        <div class="row" >
-
-          <!-- 4th Project  -->
+        
+          <!-- 5th Project  -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#ece470modal">
               <div class="card" style="max-width: 19rem; min-height:30vh;" >    
@@ -315,7 +358,7 @@
             </button>
           </div>
 
-          <!-- 4th Project Modal -->
+          <!-- 5th Project Modal -->
           <div class="modal fade" id="ece470modal" tabindex="-1" role="dialog" aria-labelledby="ece470modal" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
@@ -341,7 +384,7 @@
             </div>
           </div>
 
-          <!-- 5th Project -->
+          <!-- 6th Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#databasemodal">
               <div class="card" style="max-width: 19rem; min-height:30vh;" >
@@ -360,7 +403,7 @@
             </button>
           </div>
           
-          <!-- 5th Project Modal -->
+          <!-- 6th Project Modal -->
           <div class="modal fade" id="databasemodal" tabindex="-1" role="dialog" aria-labelledby="databasemodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -386,7 +429,12 @@
               </div>
           </div>
 
-          <!-- 6th Project -->
+        </div>
+
+      <!-- Projects on 3rd Row -->
+        <div class="row" >
+
+          <!-- 7th Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#pendbalancemodal">
               <div class="card" style="max-width: 19rem; min-height:30vh;">
@@ -405,7 +453,7 @@
             </button>
           </div>
           
-          <!-- 6th Project Modal -->
+          <!-- 7th Project Modal -->
           <div class="modal fade" id="pendbalancemodal" tabindex="-1" role="dialog" aria-labelledby="pendbalancemodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -429,13 +477,8 @@
                 </div>
               </div>
           </div>
-  
-        </div>
 
-      <!-- Projects on 3rd Row -->
-        <div class="row" >
-
-          <!-- 7th Project  -->
+          <!-- 8th Project  -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#ece385modal">
               <div class="card" style="max-width: 19rem; min-height:30vh;" >    
@@ -457,7 +500,7 @@
             </button>
           </div>
 
-          <!-- 7th Project Modal -->
+          <!-- 8th Project Modal -->
           <div class="modal fade" id="ece385modal" tabindex="-1" role="dialog" aria-labelledby="ece385modal" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
@@ -482,7 +525,7 @@
             </div>
           </div>
 
-          <!-- 8th Project -->
+          <!-- 9th Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#eohemodal">
               <div class="card" style="max-width: 19rem; min-height:30vh;" >
@@ -501,7 +544,7 @@
             </button>
           </div>
           
-          <!-- 8th Project Modal -->
+          <!-- 9th Project Modal -->
           <div class="modal fade" id="eohemodal" tabindex="-1" role="dialog" aria-labelledby="eohemodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -526,8 +569,13 @@
                 </div>
               </div>
           </div>
+  
+        </div>
 
-          <!-- 9th Project -->
+      <!-- Projects on 4th Row -->
+        <div class="row" >
+
+          <!-- 10th Project -->
           <div class="col-md-4 text-center" style="margin-top:20px; padding-bottom:40px;">
             <button class="btn btn-fix" data-toggle="modal" data-target="#lmitmodal">
               <div class="card" style="max-width: 19rem; min-height:30vh;">
@@ -546,7 +594,7 @@
             </button>
           </div>
           
-          <!-- 9th Project Modal -->
+          <!-- 10th Project Modal -->
           <div class="modal fade" id="lmitmodal" tabindex="-1" role="dialog" aria-labelledby="lmitmodal" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
