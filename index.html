@@ -22,42 +22,14 @@
 
   <body data-spy="scroll" data-target="#shift" data-offset="50">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Hidden brand</a>
-
-            
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-
-
-          </div>
-        </nav>
-
-
     <!-- Navbar Content -->
     <nav role="navigation" class="shift fixed-top navbar-expand-md navbar-light  ">
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      
+        <button id="NavToggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" >
             <span class="navbar-toggler-icon"></span>
         </button>
 
-
-        <div id="myNavBar" class="shift-collapse ">
+        <div id="myNavBar" class="shift-collapse collapse">
           <ul>
             <div class="row">
               <li class="col-md-2 nav-item">
@@ -73,7 +45,7 @@
               </li>
 
               <li class="col-md-2 nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#experience">Experience</a>
               </li>
 
               <li class="col-md-2 nav-item">
@@ -89,21 +61,21 @@
     </nav>
 
     <!-- Profile -->
-    <div id="profile" class="container-fluid text-center" style="padding-top:70px; padding-bottom:70px" >
+    <div id="profile" class="container-fluid text-center" style="padding-top:30px; padding-bottom:70px" >
       <img src="css/assets/profile_pic_1.jpg" style="margin-top: 20px ; border-radius: 50%; width: 225px; height: 225px;">
       <div style="margin-top:20px; "> 
-        <h1 style="padding-left:20px; padding-right:20px">Christopher Kang <br> 
-        <p class="text-center" style="font-size:25px" > B.S. in Electrical Engineering 
+        <h1 style="padding-left:20px; padding-right:20px; font-size:3.5vh"> <b>Christopher Kang</b> <br> 
+        <p class="text-center" style="font-size:2.5vh" > B.S. in Electrical Engineering 
         <br> Minor in Computer Science and Business  <br> 
-        <br> <i class="fa fa-envelope" style="font-size:24px"></i> chriskang97@gmail.com 
-        <br> <i class="fa fa-github" style="font-size:24px" ></i> <a id="lastitem" href="https://github.com/chriskang97">Github Profile</a> </h1></p>
+        <br> <i class="fa fa-envelope" style="font-size:2.4vh"></i> chriskang97@gmail.com 
+        <br> <i class="fa fa-github" style="font-size:2.4vh" ></i> <a id="lastitem" href="https://github.com/chriskang97">Github Profile</a> </h1></p>
       </div> 
     </div>
         
     <!-- Background -->
-    <div id="background" class="container-fluid text-left" style= "padding-top:30px;padding-bottom:70px">
-      <h2><u>Background</u></h2>
-      <div style="font-size: 3.5vh; font-family:'Times New Roman';">
+    <div id="background" class="container-fluid text-left" style= "padding-top:30px;padding-bottom:30px">
+      <h2 style="font-size: 3.0vh;"><u>Background</u></h2>
+      <div style="font-size: 2.5vh; font-family:'Times New Roman';">
         <p>Hi there! My name is Chris and I graduated from the University of Illinois at Urbana-Champaign in December 2019. My current interests lie in data engineering, data analytics, machine learning, and deep learning. Other areas that I am interested in include robotics, control systems, image processing, and back-end development. </p>
         <p>I am looking for any positions related to data engineering, data analytics, or tech consulting analyst in the east coast area. I am currently doing a self-driven learning towards data engineering projects along with machine learning and deep learning applications. </p> 
         <p>My hobbies include cooking, traveling, 3D printing, watching broadway shows, and playing golf.</p>
@@ -111,9 +83,9 @@
     </div>
 
     <!-- Skillset -->
-    <div id="skillset" class="container-fluid text-left" style="padding-top:30px; list-style-type: none; ">
-          <h1 style="padding-left:20px; padding-right:20px; min-height: 42vh; min-width:50 rem;"> <u>Technical Skills</u> <br> 
-            <ul class="text-left" style="font-size:3.5vh; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
+    <div id="skillset" class="container-fluid text-left" style="padding-top:30px; padding-bottom:30px; list-style-type: none; ">
+          <h1 style="padding-left:20px; padding-right:20px; min-height: 30vh; min-width:90vw;"> <u style="font-size: 3.0vh;"> <b>Technical Skills</b></u> <br> 
+            <ul class="text-left" style="font-size:2.5vh; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
               <li> Main Language: Python, Proficient: C++, C, MATLAB, HTML, SQL, SystemVerilog, Java, JavaScript </li>
               <br> 
               <li> Primary language used is Python and have used libraries such as Numpy, Matplot, Sckit Learn, TensorFlow, Panda </li> 
@@ -124,8 +96,8 @@
             </ul> 
           </h1>   
 
-          <h1 style="padding-left:20px; padding-right:20px; min-height: 42vh; margin-top: 3vh"> <u>Non-Technical Skills</u> <br> 
-            <ul class="text-left" style="font-size:3.5vh; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
+          <h1 style="padding-left:20px; padding-right:20px; min-height: 30vh; margin-top: 3vh; min-width:90vw"> <u style="font-size: 3.0vh;"> <b>Non-Technical Skills</b></u> <br> 
+            <ul class="text-left" style="font-size:2.5vh; font-family:'Times New Roman'; line-height: 1.1; list-style-type: disc; " > 
               <li> For several projects, assigned group members roles and tasks that needed to be done along with coordinating communications between each member's needs and issues within the group</li>
               <br> 
               <li> Delegated project milestones and schedule, reviewed each team member's contribution and results, and motivated overall group's atmosphere </li> 
@@ -137,9 +109,10 @@
           </h1>  
     </div>
 
+
     <!-- Experience -->
     <div id="experience" class="container-fluid text-left" style="padding-top:30px;padding-bottom:30px; ">
-      <h2>Experience Showcase</h2>
+      <h2><u style="font-size: 3.0vh;">Experience Showcase</u></h2>
 
       <!-- Experience on 1st Row -->
         <div class="row" >
@@ -292,7 +265,8 @@
 
     <!-- Projects -->
     <div id="projects" class="container-fluid text-left" style="padding-top:30px;padding-bottom:30px; ">
-      <h2><u>Project Showcase</u></h2>
+
+      <h2><u style="font-size: 3.0vh;">Project Showcase</u></h2>
       <!-- Project on 1st Row -->
         <div class="row" >
 
@@ -609,7 +583,7 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="ece385ModalLabel">RPG Game on FPGA Board <a href="https://github.com/chriskang97/ECE_385>">(Github Link)</a></h5>
+                  <h5 class="modal-title" id="ece385ModalLabel">RPG Game on FPGA Board</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -723,28 +697,26 @@
     </div>
 
 
-
-
     <!-- Classwork -->
-    <div id="class" class="container-fluid text-left" style="padding-top:30px; ">
-      <h1 style="padding-left:20px; padding-right:20px; min-height: 88vh;"> <u>Classwork</u> <br> 
-        <ul class="text-left" style="font-size:25px; font-family:'Times New Roman' ; line-height: 1.1; list-style-type: disc; " > 
-          <li> CS 412 Introduction to Data Mining: This course specifically focused on data mining and pattern recognition. Assignments were done in Python and covered over different algorithms such as apriori pruning, decision trees, and gaussian mixture models. 
+    <div id="class" class="container-fluid text-left" style="padding-top:30px; padding-bottom:30px; list-style-type: none;">
+      <h1 style="padding-left:20px; padding-right:20px; min-height: 30vh; min-width:90vw;"> <u style="font-size: 3vh;"><b>Classwork</b></u> <br> 
+        <ul class="text-left" style="font-size:2.5vh; font-family:'Times New Roman' ; line-height: 1.1; list-style-type: disc; " > 
+          <li> Introduction to Data Mining: Focused on data mining and pattern recognition. Assignments were done in Python and covered over different algorithms such as apriori pruning, decision trees, and gaussian mixture models. 
             <br> <a id="lastitem" href="https://github.com/chriskang97/CS_412"> <b>Github Link</b></a></li>
           <br> 
-          <li> ECE 420 Digital Signal Processing Laboratory: This course specifically focused on DSP algorithms ranging from audio to image/video. Assignments were done in Python/Android and covered over different algorithms such as filter design, pitch tuning, edges highlight, etc. 
+          <li> Digital Signal Processing Laboratory: Focused on DSP algorithms ranging from audio to image/video. Assignments were done in Python/Android and covered over different algorithms such as filter design, pitch tuning, edges highlight, etc. 
             <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_420"> <b>Github Link</b></a></li>
           <br> 
-          <li> ECE 448 Introduction to Artifical Intelligence: This course specifically focused on artificial intelligence and machine learning. Assignments were done in Python and covered over different algorithms such as maze traversal, alpha-beta pruning, neural networks, etc
+          <li> Introduction to Artifical Intelligence: Focused on artificial intelligence and machine learning. Assignments were done in Python and covered over different algorithms such as maze traversal, alpha-beta pruning, neural networks, etc
             <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_448"> <b>Github Link</b></a></li>
           <br> 
-          <li> ECE 417 Multimedia Signal Processing: This course specifically focused on multimedia signal processing. Assignments were done in Python/MATLAB and covered over different algorithms such as  CNN and lip synching. 
+          <li> Multimedia Signal Processing: Focused on multimedia signal processing. Assignments were done in Python/MATLAB and covered over different algorithms such as  CNN and lip synching. 
             <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_417"> <b>Github Link</b></a></li>
           <br> 
-          <li> ECE 398 BD Making Sense of Big Data: This course specifically focused on big data concepts and applications. Assignments were done in Python via jupyter notebooks and covered over different algorithms such as the Shazam, neural networks, linear regression, etc.
+          <li> Making Sense of Big Data: Focused on big data concepts and applications. Assignments were done in Python via jupyter notebooks and covered over different algorithms such as the Shazam, neural networks, linear regression, etc.
             <br> <a id="lastitem" href="https://github.com/chriskang97/ECE_398"> <b>Github Link</b></a></li>
           <br> 
-          <li> CS 225 Introduction to Data Structure and Algorithms: This course specifically focused on data structures and algorithms. Assignments were done in C++ and covered over different data structure applications such as the stack/queue, trees, graphs, etc.
+          <li> Introduction to Data Structure and Algorithms: Focused on data structures and algorithms. Assignments were done in C++ and covered over different data structure applications such as the stack/queue, trees, graphs, etc.
             <br> <a id="lastitem" href="https://github.com/chriskang97/CS_225"> <b>Github Link</b></a></li>
         </ul> 
       </h1> 
@@ -752,8 +724,8 @@
 
 
     <!-- Miscellaneous -->
-    <div id="misc"class="container-fluid text-left" style= "padding-top:30px;padding-bottom:70px">
-      <h2>Miscellaneous</h2>
+    <div id="misc"class="container-fluid text-left" style= "padding-top:5px;padding-bottom:30px">
+      <h2><u style="font-size: 3.0vh;">Miscellaneous</u></h2>
       <div style="font-size: 20px; font-family:'Times New Roman';">
           <p>Email: chriskang97@gmail.com 
           <br>Github Profile: <a href=https://github.com/chriskang97>https://github.com/chriskang97</a> </p>

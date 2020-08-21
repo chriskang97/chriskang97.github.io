@@ -60,7 +60,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover ; 
     background-color: rgba(29, 29, 29, 0.3);
-    min-height: 100vh ; 
+    min-height: 30vh ; 
   }
 
   #skillset:before{
@@ -69,12 +69,12 @@ body{
     display:block;  
   }
 
-  #projects {
+  #experience {
     background-repeat: no-repeat;
     background-size: cover; 
   }
 
-  #projects:before {
+  #experience:before {
     height: 6vh;
     content: "";
     display:block;
@@ -87,7 +87,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover ; 
     background-color: rgba(29, 29, 29, 0.3);
-    min-height: 100vh; 
+    min-height: 30vh; 
   }
 
   #class:before {
@@ -170,7 +170,7 @@ body{
     padding-top: 10px ; 
     display: block;
     float: none; 
-    min-height: 8vh ; 
+    min-height: 5vh ; 
     max-width: 1920px ;
     margin: 0 auto; 
 
@@ -225,7 +225,7 @@ body{
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 75%;
+    width: 100%;
     height: 1px;
     content: '.';
     color: transparent;
@@ -239,5 +239,14 @@ body{
     opacity: 1;
     visibility: visible;
     height: 150%;
-    
+  }
+
+  /* Allows navbar to show up on desktop given a minimum width size */
+  @media screen and (min-width:1100px) {
+    #myNavBar { display:block !important; }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1099px) {
+    #NavToggle { display:block !important; }
+
   }
